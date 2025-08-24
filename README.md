@@ -1,30 +1,56 @@
-# Wireless Indoor Localization
+# 📡 Wireless Indoor Localization
 
-## Abstract
+## 📌 Abstract
+This project focuses on building a **Wireless Indoor Localization system** that predicts a user’s position indoors using **WiFi signal strengths** from multiple access points — an area where GPS-based methods fail.  
 
-My first public project of machine learning models.  It consists in a comparison of different classification algorithms to determine the location of a wireless terminal.  For each classification model different hyperparameters where used.  Then to generate the confusion matrix, the hyperparameters with best score where used.
+It is my **first public machine learning project**, where I implemented and compared different classification algorithms. For each model, multiple hyperparameters were tuned, and the best-performing configuration was selected to generate results such as confusion matrices and accuracy scores.  
 
-## Source Dataset
+---
 
-The dataset used for this project is available at UCI repository:  https://archive.ics.uci.edu/ml/datasets/Wireless+Indoor+Localization
+## 🧠 Description
+The project implements and evaluates the following **machine learning classifiers**:
+- k-Nearest Neighbors (KNN)  
+- Support Vector Machine (SVM)  
+- Decision Tree  
+- Random Forest  
+- Gradient Boosting  
 
-## Description
+Key highlights:
+- Applied **GridSearchCV** for hyperparameter tuning.  
+- Performed **comparative analysis** between models to highlight performance trade-offs.  
+- Achieved **~96% accuracy** with **Random Forest**, supported by confusion matrix and heatmap visualizations.  
+- Conducted **EDA** to analyze WiFi signal distributions across different rooms.  
 
-The different models used in the project are:
-* k-Nearest Neighbors
-* Support Vector machine
-* Decision Trees
-* Random Forest
-* Gradient Boosting
+---
 
-## Tools and Libraries Used
+## 📊 Source Dataset
+- **Dataset:** [UCI Wireless Indoor Localization](https://archive.ics.uci.edu/ml/datasets/Wireless+Indoor+Localization)  
+- **Details:**  
+  - **2000 samples**  
+  - **7 features** (signal strength values)  
+  - **4 room classes**  
 
-* pandas                    0.25.1
-* numpy                     1.16.5
-* matplotlib                3.1.0
-* scikit-learn              0.21.3
-* seaborn                   0.9.0
+---
 
-## Format
+## 🛠️ Tools and Libraries Used
+- Python 3.7.1 (Jupyter Notebook)  
+- **pandas** 0.25.1  
+- **numpy** 1.16.5  
+- **matplotlib** 3.1.0  
+- **scikit-learn** 0.21.3  
+- **seaborn** 0.9.0  
 
-Use of Python 3.7.1 in Jupyter Notebook
+---
+
+## 📈 Results
+- Best-performing model: **Random Forest (~96% accuracy)**  
+- Visualization of performance with **confusion matrices** and **heatmaps**.  
+- Compared results across **5 ML models** for clarity and reproducibility.  
+
+---
+
+## 🚀 How to Run
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Wireless-Indoor-Localization.git
+   cd Wireless-Indoor-Localization
