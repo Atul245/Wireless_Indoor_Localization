@@ -66,7 +66,6 @@ Key highlights:
 3. **Open the Jupyter Notebook:**
   ```bash
   Run the notebook to reproduce experiments and results.
-
----
+  ```
 
 ## ✨ If you like this project, don’t forget to star ⭐ the repo!
