@@ -1,5 +1,11 @@
 # 📡 Wireless Indoor Localization
 
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)  
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.21.3-green.svg)](https://scikit-learn.org/stable/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Made with ML](https://img.shields.io/badge/Machine-Learning-black.svg)](#)  
+
 ## 📌 Abstract
 This project focuses on building a **Wireless Indoor Localization system** that predicts a user’s position indoors using **WiFi signal strengths** from multiple access points — an area where GPS-based methods fail.  
 
@@ -54,3 +60,13 @@ Key highlights:
    ```bash
    git clone https://github.com/your-username/Wireless-Indoor-Localization.git
    cd Wireless-Indoor-Localization
+2. **Install dependencies:**
+   ```bash
+    pip install -r requirements.txt
+3. **Open the Jupyter Notebook:**
+  ```bash
+  Run the notebook to reproduce experiments and results.
+
+---
+
+## ✨ If you like this project, don’t forget to star ⭐ the repo!
